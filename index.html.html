@@ -1,0 +1,506 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Personnel Forms and Document Request Portal</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f3f6f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background: #064e3b;
+    color: white;
+    padding: 30px 15px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 26px;
+}
+
+header p {
+    margin-top: 8px;
+}
+
+nav {
+    background: #047857;
+    padding: 14px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 10px 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #facc15;
+}
+
+.container {
+    max-width: 1100px;
+    margin: auto;
+    padding: 25px 15px;
+}
+
+.welcome {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 25px;
+    box-shadow: 0 2px 8px #ddd;
+}
+
+.welcome h2 {
+    color: #047857;
+    margin-bottom: 10px;
+}
+
+.section-title {
+    color: #064e3b;
+    margin: 30px 0 15px;
+    border-left: 5px solid #047857;
+    padding-left: 12px;
+}
+
+.card {
+    background: white;
+    padding: 22px;
+    border-radius: 10px;
+    margin-bottom: 18px;
+    box-shadow: 0 2px 8px #ddd;
+}
+
+.card h3 {
+    color: #047857;
+    margin-bottom: 12px;
+}
+
+.card h4 {
+    margin-top: 15px;
+    color: #064e3b;
+}
+
+ul, ol {
+    padding-left: 25px;
+    margin: 10px 0;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+.document-link {
+    display: inline-block;
+    background: #047857;
+    color: white;
+    text-decoration: none;
+    padding: 9px 15px;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.document-link:hover {
+    background: #064e3b;
+}
+
+.request-card {
+    background: white;
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+    box-shadow: 0 2px 8px #ddd;
+}
+
+.request-card h3 {
+    color: #064e3b;
+    font-size: 17px;
+}
+
+.request-btn {
+    background: #047857;
+    color: white;
+    padding: 10px 18px;
+    text-decoration: none;
+    border-radius: 5px;
+    white-space: nowrap;
+}
+
+.request-btn:hover {
+    background: #064e3b;
+}
+
+.note {
+    background: #fff7d6;
+    border-left: 5px solid #eab308;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+footer {
+    background: #064e3b;
+    color: white;
+    padding: 25px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+footer p {
+    font-size: 14px;
+}
+
+@media(max-width:600px) {
+    header h1 {
+        font-size: 21px;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 5px;
+        font-size: 14px;
+    }
+
+    .request-card {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>PERSONNEL FORMS AND DOCUMENT REQUEST PORTAL</h1>
+    <p>Online Requirements, Forms and Document Requests</p>
+</header>
+
+<nav>
+    <a href="#home">Home</a>
+    <a href="#leave">Leave Application</a>
+    <a href="#reinstatement">Reinstatement</a>
+    <a href="#online">Online Requests</a>
+</nav>
+
+<div class="container">
+
+<section class="welcome" id="home">
+    <h2>Welcome!</h2>
+    <p>
+        Welcome to the Personnel Forms and Document Request Portal.
+        This website provides access to personnel requirements,
+        downloadable forms, and online document requests.
+    </p>
+</section>
+
+<!-- LEAVE APPLICATION -->
+
+
+<h2 class="section-title" id="leave">
+    </h2>
+
+
+<div class="card">
+    <h3>Application for Leave – 3 Copies</h3>
+
+    <h4>School Level</h4>
+    <ul>
+        <li>Vacation Leave (VL)</li>
+        <li>Forced Leave</li>
+        <li>Special Privilege Leave (SPL)</li>
+        <li>Special Emergency Leave (SEL)</li>
+        <li>Wellness Leave (WL)</li>
+        <li>Solo Parent Leave</li>
+        <li>Paternity Leave</li>
+        <li>Sick Leave (6 days or more) – Attach Medical Certificate</li>
+    </ul>
+    <a href="https://drive.google.com/drive/folders/1zHjtS-VkVvh-SMGOQbcU0mb_zAI5SfCO?usp=drive_link/file/d/YOUR_FILE_ID/view"
+   target="_blank"
+   class="document-link">
+   Download
+</a> 
+
+    </a>
+</div>
+
+<div class="card">
+    <h3>Division Level / Regional Levels</h3>
+
+    <h4>A. Vacation Leave Abroad - 3 Copies</h4>
+    <ul>
+        <li>Request Letter addressed to the Principal, SDS, RD</li>
+        <li>Contingency Plan</li>
+        <li>Clearance (School and Division Office)</li>
+        <li>Certificate of No Pending Administrative Case</li>
+        <li>Authority to Travel – (at least 2 days before expected travel) ONLINE REQUEST</li>
+       
+    </ul>
+    <a href="https://drive.google.com/drive/folders/1NoHVUI4EF6x8R6oAyX74LUw_Si1sHvGN?usp=drive_link"
+   target="_blank"
+   class="document-link">
+   Download
+</a> 
+
+    </a>
+</div>
+
+
+
+
+<div class="card">
+    <h3>Sick Leave (30 days or more) - 3 Copies</h3>
+
+    <h4>Attachments:</h4>
+    <ul>
+        <li>Clearance (School and Division Office)</li>
+        <li>Certificate of No Pending Administrative Case</li>
+        <li>Clearance (School and Division Office)</li>
+        <li>Medical Certificate</li>
+               
+    </ul>
+    <a href="https://drive.google.com/drive/folders/1a3_xHyES6wzjZGTnHJYA3EpuvR9bbCGB?usp=drive_link"
+   target="_blank"
+   class="document-link">
+   Download
+</a> 
+
+    </a>
+</div>
+
+
+
+
+<div class="card">
+    <h3>Terminal Leave - 3 Copies</h3>
+
+    <h4>Attachments:</h4>
+    <ul>
+        <li>Letter of Intent</li>
+        <li>Clearance (School and Division Office)</li>
+                       
+    </ul>
+    <a href="https://drive.google.com/drive/folders/16x2tw65vy0na9cbNlxbdeHKqmL-uwdEn?usp=drive_link"
+   target="_blank"
+   class="document-link">
+   Download
+</a> 
+
+    </a>
+
+
+</div>
+
+
+
+
+
+<div class="card">
+    <h3>Maternity Leave - 3 Copies</h3>
+
+    <h4>Attachments:</h4>
+    <ul>
+        <li>Clearance (School and Division Office)</li>
+        <li>Certificate of No Pending Administrative Case</li>
+	<li>Data of Teacher to go on ML</li>
+	<li>Special Order</li>
+	<li>Medical Certificate</li>
+
+</ul>
+    <a href="https://drive.google.com/drive/folders/1mZQRGaNKQAy7_gPGuQsIfUIi_V5MgBEV?usp=drive_link"
+   target="_blank"
+   class="document-link">
+   Download
+</a> 
+
+    </a>
+
+
+</div>
+
+
+<!-- REINSTATEMENT FORM -->
+
+
+<h2 class="section-title" id="reinstatement">
+</h2>
+
+
+<div class="card">
+    <h3>Reinstatement Form</h3>
+
+    <h4>A. VL</h4>
+    <ul>
+       <li>Attach Approved F6 (secure photocopy from HR OFFICE)</li>                    
+    </ul>
+
+
+  <h4>B. SL</h4>
+    <ul>
+        <li>Attach Approved F6 (secure photocopy from HR OFFICE)</li>
+        <li>Medical Certificate (Fit to Work) c/o Dra. Perez</li>                     
+    </ul>
+
+
+  <h4>C. Maternity Leave</h4>
+    <ul>
+        <li>Attach Approved F6 (secure photocopy)</li>
+        <li>Medical Certificate (Fit to Work) c/o Dra. Perez</li>   
+	<li>Birth Certificate of the Child (photocopy)</li>                      
+    </ul>
+
+    </ul>
+    <a href="https://drive.google.com/drive/folders/1zHjtS-VkVvh-SMGOQbcU0mb_zAI5SfCO?usp=drive_link/file/d/YOUR_FILE_ID/view"
+   target="_blank"
+   class="document-link">
+   Download
+</a> 
+
+    </a>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- ONLINE REQUESTS -->
+
+<h2 class="section-title" id="online">
+    ONLINE REQUEST FOR THE FOLLOWING DOCUMENTS
+</h2>
+
+<div class="note">
+    <b>IMPORTANT REMINDER:</b>
+    Requested documents shall be released the following working day,
+    subject to availability of Signatories / Personnel in-charge.
+</div>
+
+<div class="request-card">
+    <div>
+        <h3>3. Appointment Papers</h3>
+        <p>Oath of Office, Assumption of Duty, and Position Description Form.</p>
+    </div>
+    <a class="request-btn" href="https://docs.google.com/spreadsheets/d/1q80F7tlMXHoQPeQ3ooGf2lQZZTDE3_nqBgi-xjeIHMQ/edit?gid=0#gid=0" target="_blank">
+        Request Online
+    </a>
+</div>
+
+<div class="request-card">
+    <div>
+        <h3>4. Service Records</h3>
+        <p>Request a copy of your Service Record.</p>
+    </div>
+    <a class="request-btn" href="https://docs.google.com/spreadsheets/d/1QLqgv7sThyqC4KBWDYxRyXQhVZWsWKSHYJ35CGrIXAc/edit?gid=0#gid=0" target="_blank">
+        Request Online
+    </a>
+</div>
+
+<div class="request-card">
+    <div>
+        <h3>5. Certificate of Employment</h3>
+        <p>Request a Certificate of Employment.</p>
+    </div>
+    <a class="request-btn" href="https://docs.google.com/spreadsheets/d/10G0GO6j-UOB0P1w-95zjIyYK04oIfNfvtQAyHQopbVE/edit?usp=sharing" target="_blank">
+        Request Online
+    </a>
+</div>
+
+<div class="request-card">
+    <div>
+        <h3>6. Payslip (2nd Copy)</h3>
+        <p>Request a second copy of your payslip.</p>
+    </div>
+    <a class="request-btn" href="https://docs.google.com/spreadsheets/d/1uGh7J3o4CloSURHABlmu0GtKiE0LNCt6iNAgUB6Svls/edit?gid=0#gid=0" target="_blank">
+        Request Online
+    </a>
+</div>
+
+<div class="request-card">
+    <div>
+        <h3>7. Travel Authority</h3>
+        <p>
+            Submit your request at least 2 days before expected travel.
+            Attach the required Memorandum.
+        </p>
+    </div>
+    <a class="request-btn" href="https://docs.google.com/spreadsheets/d/1hdM5h_wtOvr7IxHjFZtfwVtAqZsep5WEJQ-8sOjiW0Y/edit?gid=0#gid=0" target="_blank">
+        Request Online
+    </a>
+</div>
+
+<div class="request-card">
+    <div>
+        <h3>8. Request for ID Number</h3>
+        <p>Request an identification number.</p>
+    </div>
+    <a class="request-btn" href="https://docs.google.com/spreadsheets/d/1uLaKIXlsvzo53rL9VKrUJh_-wJ4xhGGoRJUyBhFOF28/edit?gid=0#gid=0" target="_blank">
+        Request Online
+    </a>
+</div>
+
+<div class="request-card">
+    <div>
+        <h3>9. Locator Slip</h3>
+        <p>Request or access the Locator Slip.</p>
+    </div>
+    <a class="request-btn" href="https://drive.google.com/drive/folders/1V71B5g9IU3R2kfyD5-UR-RMrbQuPas7A?usp=drive_link" target="_blank">
+        DOWNLOAD
+    </a>
+</div>
+
+</div>
+
+<footer>
+    <h3>PERSONNEL FORMS AND DOCUMENT REQUEST PORTAL</h3>
+    <p>For official office transactions and document requests.</p>
+    <p>&copy; 2026 All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
